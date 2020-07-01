@@ -1,0 +1,47 @@
+2020-06-28 12:53:40,988 INFO com.example.service1.Service1Application [main] No active profile set, falling back to default profiles: default
+2020-06-28 12:53:42,584 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-06-28 12:53:42,585 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-28 12:53:42,656 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-06-28 12:53:43,161 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-06-28 12:53:43,254 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-06-28 12:53:43,292 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-28 12:53:43,321 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-06-28 12:53:43,321 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-28 12:53:43,324 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-06-28 12:53:43,324 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-28 12:53:43,341 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-28 12:53:43,487 INFO org.hibernate.annotations.common.Version [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-28 12:53:43,645 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-06-28 12:53:43,930 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-28 12:53:50,691 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2020-06-28 12:53:50,738 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2020-06-28 12:53:50,738 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2020-06-28 12:53:50,825 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2020-06-28 12:53:50,826 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2020-06-28 12:53:50,979 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2020-06-28 12:53:50,994 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2020-06-28 12:53:50,994 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2020-06-28 12:53:50,994 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2020-06-28 12:53:50,994 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2020-06-28 12:53:50,994 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2020-06-28 12:53:50,994 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2020-06-28 12:53:50,994 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2020-06-28 12:53:51,109 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2020-06-28 12:53:51,111 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2020-06-28 12:53:51,112 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-06-28 12:53:51,115 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1593363231115 with initial instances count: 3
+2020-06-28 12:53:51,128 INFO com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1593363231128, current=UP, previous=STARTING]
+2020-06-28 12:53:51,130 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_SERVICE1/192.168.0.18:service1:8000: registering service...
+2020-06-28 12:53:51,164 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_SERVICE1/192.168.0.18:service1:8000 - registration status: 204
+2020-06-28 12:53:51,249 INFO com.example.service1.Service1Application [main] Started Service1Application in 20.848 seconds (JVM running for 26.363)
+2020-06-28 12:55:59,279 WARN com.netflix.discovery.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1593363359279, current=DOWN, previous=UP]
+2020-06-28 12:55:59,280 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_SERVICE1/192.168.0.18:service1:8000: registering service...
+2020-06-28 12:55:59,293 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_SERVICE1/192.168.0.18:service1:8000 - registration status: 204
+2020-06-28 12:55:59,293 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(2)-127.0.0.1] Stopping service [Tomcat]
+2020-06-28 12:55:59,405 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [RMI TCP Connection(2)-127.0.0.1] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-06-28 12:55:59,408 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2020-06-28 12:55:59,411 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2020-06-28 12:56:00,415 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] Shutting down DiscoveryClient ...
+2020-06-28 12:56:03,419 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] Unregistering ...
+2020-06-28 12:56:03,426 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] DiscoveryClient_SERVICE1/192.168.0.18:service1:8000 - deregister  status: 200
+2020-06-28 12:56:03,438 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] Completed shut down of DiscoveryClient

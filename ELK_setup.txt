@@ -1,0 +1,12 @@
+Elasticsearch: download and unzip. Goto file directory till bin and type in terminal
+./elasticsearch. Check server at localhost:9200
+
+Kibana: Download and unzip. Edit kibana.yml located in config, just uncomment elasticsearch.url: "http://localhost:9200". Then run kibana by the command in terminal going to bin directory like ./kibana
+
+Server: localhost:5601 or check from command run
+
+Logstash: Created logstash.conf file and put in bin folder. Command used: ./logstash -f
+ logstash.conf
+
+// mariadb: brew services start mariadb
+
